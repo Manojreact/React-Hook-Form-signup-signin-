@@ -1,0 +1,72 @@
+body {
+    background: black;
+  }
+  
+  .carousel-indicators {
+      position: static;
+    
+    .item {
+      
+      &.active {
+        background: transparent;
+        
+        img {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+
+     //   <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+      //   <div className="carousel-inner">
+      //     <div className="carousel-item active">
+      //       <img className="d-block w-100" src="https://images.pexels.com/photos/954599/pexels-photo-954599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="First slide" />
+      //     </div>
+      //     <div className="carousel-item">
+      //       <img className="d-block w-100" src="https://images.pexels.com/photos/1166643/pexels-photo-1166643.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Second slide" />
+      //     </div>
+      //     <div className="carousel-item">
+      //       <img className="d-block w-100" src="https://images.pexels.com/photos/551611/pexels-photo-551611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Third slide" />
+      //     </div>
+      //   </div>
+      //   <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      //     <span className="carousel-control-prev-icon" aria-hidden="true" />
+      //     <span className="sr-only">Previous</span>
+      //   </a>
+      //   <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      //     <span className="carousel-control-next-icon" aria-hidden="true" />
+      //     <span className="sr-only">Next</span>
+      //   </a>
+      //     <ol class="carousel-indicators">
+      //     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+      // <img src="https://pbs.twimg.com/profile_images/905183271046193153/q_P1KBUJ_400x400.jpg" class="img-fluid"/>
+      //     </li>
+      //     <li data-target="#carouselExampleIndicators" data-slide-to="1">
+      // <img src="https://pbs.twimg.com/profile_images/905183271046193153/q_P1KBUJ_400x400.jpg" class="img-fluid"/>
+      //     </li>
+      //     <li data-target="#carouselExampleIndicators" data-slide-to="2">
+      // <img src="https://pbs.twimg.com/profile_images/905183271046193153/q_P1KBUJ_400x400.jpg" class="img-fluid"/>
+      //     </li>
+      //   </ol>
+      //   <div className="container pt-4 pb-5">
+      //     <div className="row carousel-indicators">
+      //       <div className="col-md-4 item">
+      //         <img src="https://pbs.twimg.com/profile_images/905183271046193153/q_P1KBUJ_400x400.jpg" className="img-fluid" data-target="#carouselExampleIndicators" data-slide-to={0} />
+      //       </div>
+      //       <div className="col-md-4 item">
+      //         <img src="https://pbs.twimg.com/profile_images/905183271046193153/q_P1KBUJ_400x400.jpg" className="img-fluid" data-target="#carouselExampleIndicators" data-slide-to={1} />
+      //       </div>
+      //       <div className="col-md-4 item">
+      //         <img src="https://pbs.twimg.com/profile_images/905183271046193153/q_P1KBUJ_400x400.jpg" className="img-fluid" data-target="#carouselExampleIndicators" data-slide-to={2} />
+      //       </div>
+      //     </div>
+      //   </div>
+     
+     
+     
+     
+     
+     
+     
+      // </div>
+      
